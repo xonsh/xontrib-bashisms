@@ -5,7 +5,7 @@
 Bash-like interface extensions for xonsh. Enables additional Bash-like syntax while at the command prompt.
 
 For example:
-```
+```xsh
 xontrib load bashisms
 !!  # running the previous command
 ```
