@@ -21,19 +21,29 @@ xpip install xontrib-bashisms
 xontrib load bashisms
 ```
 
-Enables additional Bash-like syntax while at the command prompt.
-For example, the ``!!`` syntax for running the previous command is now usable.
+Enables additional Bash-like syntax and commands while at the interactive command prompt:
 
-Note that these features are implemented as precommand events and
-these additions do not affect the xonsh language when run as script.
-That said, you might find them useful if you have strong muscle memory.
-
-The xontrib also adds commands: ``alias``, ``export``, ``unset``, ``set``, ``shopt``, ``complete``.
+* ``!!`` - running the previous command
+* ``alias``
+* ``export``
+* ``unset``
+* ``set``
+* ``shopt``
+* ``complete``
 
 ## Known issues
 
+Note that these features are implemented as [precommand events](https://xon.sh/events.html#on-precommand) and
+these additions do not affect the xonsh language when run as script.
+That said, you might find them useful if you have strong muscle memory.
+
 This xontrib may modify user command line input to implement its behavior.
-To see the modifications as they are applied (in unified diffformat), please set ``$XONSH_DEBUG`` to ``2`` or higher.
+To see the modifications as they are applied (in unified diffformat), please set [`$XONSH_DEBUG`](https://xon.sh/envvars.html#xonsh-debug) to `2` or higher.
+
+## See also
+
+* [Bash to Xonsh Translation Guide](https://xon.sh/bash_to_xsh.html)
+* [xontrib-sh](https://github.com/anki-code/xontrib-sh) - Paste and run commands from bash, zsh, fish, tcsh in xonsh shell. 
 
 ## Credits
 
