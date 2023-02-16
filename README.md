@@ -21,15 +21,16 @@ xpip install xontrib-bashisms
 xontrib load bashisms
 ```
 
-Enables additional Bash-like syntax and commands while at the interactive command prompt:
+Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
-* ``!!`` - running the previous command
-* ``alias``
-* ``export``
-* ``unset``
-* ``set``
-* ``shopt``
-* ``complete``
+* `!!` - running the previous command
+* `alias`
+* `export`
+* `unset`
+* `set`
+* `shopt`
+* `complete`
+* `set <-e|+e|-x|+x>`
 
 ## Known issues
 
