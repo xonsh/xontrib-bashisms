@@ -23,7 +23,7 @@ xontrib load bashisms
 
 Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
-* `!!` - running the previous command
+* `!!`, `!$`, `!^`, `!*`
 * `alias`
 * `export`
 * `unset`
