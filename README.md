@@ -2,7 +2,7 @@
 Bash-like interface extensions for xonsh.
 </p>
 
-<p align="center">  
+<p align="center">
 If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Nice%20xontrib%20for%20the%20xonsh%20shell!&url=https://github.com/xonsh/xontrib-bashisms" target="_blank">tweet</a>.
 </p>
 
@@ -44,7 +44,7 @@ To see the modifications as they are applied (in unified diffformat), please set
 ## See also
 
 * [Bash to Xonsh Translation Guide](https://xon.sh/bash_to_xsh.html)
-* [xontrib-sh](https://github.com/anki-code/xontrib-sh) - Paste and run commands from bash, zsh, fish, tcsh in xonsh shell. 
+* [xontrib-sh](https://github.com/anki-code/xontrib-sh) - Paste and run commands from bash, zsh, fish, tcsh in xonsh shell.
 
 ## Credits
 
