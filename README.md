@@ -6,6 +6,9 @@ Bash-like interactive mode extensions for the xonsh shell.
 If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Nice%20xontrib%20for%20the%20xonsh%20shell!&url=https://github.com/xonsh/xontrib-bashisms" target="_blank">tweet</a>.
 </p>
 
+## Note
+
+We're not recommend to use this xontrib (see issues section). Use it carefully only if you have very strong muscle memory after hundred of years using Bash or for the education reasons and demonstration how agile is xonsh shell.
 
 ## Installation
 
