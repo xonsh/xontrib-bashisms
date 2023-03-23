@@ -1,5 +1,5 @@
 <p align="center">
-Bash-like interactive mode extensions for xonsh.
+Bash-like interactive mode extensions for the xonsh shell.
 </p>
 
 <p align="center">
