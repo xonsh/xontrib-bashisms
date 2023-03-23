@@ -23,14 +23,21 @@ xontrib load bashisms
 
 Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
-* `!!`, `!$`, `!^`, `!*`
-* `alias`
-* `export`
-* `unset`
-* `set`
-* `shopt`
-* `complete`
-* `set <-e|+e|-x|+x>`
+| Bash  | Meaning  | Xonsh alternative  |
+|---|---|---|
+| `!!`  | Repeat the last command.  | todo  |
+| `!^`  | Get the first argument from the preceding command.  | todo  |
+| `!$`  | Get the last argument from the preceding command.  | `__xonsh__.history[-1, -1]`  |
+| `!*`  | Get all argument from the preceding command.  | todo  |
+| `alias`  | Add alias.  | `aliases['ll'] = 'ls -la'`  |
+| `export NAME=Peter`  | Setting an environment variable.  |  `$NAME = 'Peter'` |
+| `shopt -s dotglob`  | Globbing files with * or ** will also match dotfiles, or those "hidden" files.  | `$DOTGLOB = True`  |
+| `complete`  | Show list of completers.  | `completer list`  |
+| `set <-e/+e>`  |  Cause a failure after a non-zero return code.  | `$RAISE_SUBPROC_ERROR = True`  |
+| `set <-x/+x>` | Turns on tracing of source code lines during execution. | `trace on` and `$XONSH_TRACE_SUBPROC = True` |
+| `unset NAME`  | Unsetting/deleting an environment variable.  | `del $NAME`  |
+
+You can find more xonsh snippets in [Bash to Xonsh Translation Guide](https://xon.sh/bash_to_xsh.html).
 
 ## Known issues
 
