@@ -23,7 +23,7 @@ xontrib load bashisms
 
 Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
-| Bash  | Meaning  | Xonsh alternative  |
+| Added  | Meaning  | Xonsh alternative  |
 |---|---|---|
 | `!!`  | Repeat the last command.  | todo  |
 | `!^`  | Get the first argument from the preceding command.  | todo  |
