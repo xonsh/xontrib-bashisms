@@ -45,7 +45,7 @@ The `xontrib-bashisms` appeared in the beginning of xonsh history as part of the
 
 ### Threading issues
 
-Because of xontrib-bashisms sets [`THREAD_SUBPROCS=False`](https://xon.sh/envvars.html#thread-subprocs) there are issues around the threading could appear.
+Because of xontrib-bashisms sets [`THREAD_SUBPROCS=False`](https://xon.sh/envvars.html#thread-subprocs) there are issues around the threading could appear. If you're using bashisms and faced with issues try the same in `xonsh --no-rc` mode before reporting the issue.
 
 ### Only interactive mode
 
