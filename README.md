@@ -27,7 +27,7 @@ xontrib load bashisms
 Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
 | Added  | Meaning  |
-|---|---|---|
+|---|---|
 | `!!`  | Get the last command.  |
 | `!^`  | Get the first argument from the preceding command.  |
 | `!$`  | Get the last argument from the preceding command.  |
