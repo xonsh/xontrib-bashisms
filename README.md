@@ -1,5 +1,5 @@
 <p align="center">
-Bash-like interface extensions for xonsh.
+Bash-like interactive mode extensions for xonsh.
 </p>
 
 <p align="center">
@@ -34,9 +34,19 @@ Enables additional limited Bash-like syntax and commands while at the interactiv
 
 ## Known issues
 
-Note that these features are implemented as [precommand events](https://xon.sh/events.html#on-precommand) and
+The `xontrib-bashisms` appeared in the beginning of xonsh history as part of the default xontribs. It has issues and we recommend to use [xontrib-sh](https://github.com/anki-code/xontrib-sh) instead.
+
+### Threading issues
+
+Because of xontrib-bashisms sets [`THREAD_SUBPROCS=False`](https://xon.sh/envvars.html#thread-subprocs) there are issues around the threading could appear.
+
+### Only interactive mode
+
+The xontrib features are implemented as [on_precommand events](https://xon.sh/events.html#on-precommand) and
 these additions do not affect the xonsh language when run as script.
-That said, you might find them useful if you have strong muscle memory.
+That said, you might find them useful if you have strong muscle memory in interactive mode.
+
+## Debug
 
 This xontrib may modify user command line input to implement its behavior.
 To see the modifications as they are applied (in unified diffformat), please set [`$XONSH_DEBUG`](https://xon.sh/envvars.html#xonsh-debug) to `2` or higher.
