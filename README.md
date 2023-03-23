@@ -26,21 +26,21 @@ xontrib load bashisms
 
 Enables additional limited Bash-like syntax and commands while at the interactive command prompt:
 
-| Added  | Meaning  | Xonsh alternative  |
+| Added  | Meaning  |
 |---|---|---|
-| `!!`  | Repeat the last command.  | todo  |
-| `!^`  | Get the first argument from the preceding command.  | todo  |
-| `!$`  | Get the last argument from the preceding command.  | `__xonsh__.history[-1, -1]`  |
-| `!*`  | Get all argument from the preceding command.  | todo  |
-| `alias`  | Add alias.  | `aliases['ll'] = 'ls -la'`  |
-| `export NAME=Peter`  | Setting an environment variable.  |  `$NAME = 'Peter'` |
-| `shopt -s dotglob`  | Globbing files with * or ** will also match dotfiles, or those "hidden" files.  | `$DOTGLOB = True`  |
-| `complete`  | Show list of completers.  | `completer list`  |
-| `set <-e/+e>`  |  Cause a failure after a non-zero return code.  | `$RAISE_SUBPROC_ERROR = True`  |
-| `set <-x/+x>` | Turns on tracing of source code lines during execution. | `trace on` and `$XONSH_TRACE_SUBPROC = True` |
-| `unset NAME`  | Unsetting/deleting an environment variable.  | `del $NAME`  |
+| `!!`  | Get the last command.  |
+| `!^`  | Get the first argument from the preceding command.  |
+| `!$`  | Get the last argument from the preceding command.  |
+| `!*`  | Get all argument from the preceding command.  |
+| `alias`  | Add alias.  |
+| `export NAME=Peter`  | Setting an environment variable.  |
+| `shopt -s dotglob`  | Globbing files with * or ** will also match dotfiles, or those "hidden" files.  |
+| `complete`  | Show list of completers.  |
+| `set <-e/+e>`  |  Cause a failure after a non-zero return code.  |
+| `set <-x/+x>` | Turns on tracing of source code lines during execution. |
+| `unset NAME`  | Unsetting/deleting an environment variable.  |
 
-You can find more xonsh snippets in [Bash to Xonsh Translation Guide](https://xon.sh/bash_to_xsh.html).
+See also [Bash to Xonsh Translation Guide](https://xon.sh/bash_to_xsh.html).
 
 ## Known issues
 
