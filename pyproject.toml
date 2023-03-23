@@ -1,9 +1,9 @@
 
 [project]
 name = "xontrib-bashisms"
-version = "0.0.1"
+version = "0.0.2"
 license = {file = "LICENSE"}
-description = "Bash-like interface extensions for xonsh."
+description = "Bash-like interactive mode extensions for the xonsh shell."
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
