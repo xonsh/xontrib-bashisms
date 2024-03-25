@@ -1,4 +1,5 @@
 """Tests bashisms xontrib."""
+
 import sys
 
 import pytest
